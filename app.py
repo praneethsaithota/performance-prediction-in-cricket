@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load your Excel file
-matches = pd.read_excel(r'C:\Users\praneeth\1 dataset1_test.xlsx')
+matches = pd.read_excel('1 dataset1_test.xlsx')
 
 # Rename columns for clarity
 Records = pd.DataFrame(matches)
